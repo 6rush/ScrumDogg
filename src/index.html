@@ -6,9 +6,12 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css"
-href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
 
+  <link rel="stylesheet" type="text/css" href="https://www.waynecounty.com/ui/css/icon-fonts-hanger.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="https://www.waynecounty.com/ui/css/fotorama.css">
+  <link rel="stylesheet" type="text/css" href="https://www.waynecounty.com/ui/css/newstyle.css">
+  <link rel="stylesheet" type="text/css" href="https://www.waynecounty.com/ui/css/jquery.mmenu.all.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
@@ -16,5 +19,29 @@ href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css"
 </head>
 <body>
   <app-root></app-root>
+
+  <div id="footer" class="ui grid footer">
+  	<div class="ui eight wide fluid column">
+  		<div class="ui basic segment social">
+  		    <h4>Stay Connected</h4>
+  			<a href="https://www.facebook.com/waynecountymi/" target="_blank" class="footer-icon" data-tooltip="Follow us on Facebook" data-position="top left"><i class="fitted facebook icon"></i></a>
+  			<a href="https://twitter.com/waynecountymi" target="_blank" class="footer-icon" data-tooltip="Follow us on Twitter" data-position="top left"><i class="fitted twitter icon"></i></a>
+  			<a href="/county/contact.aspx" class="footer-icon" data-tooltip="Wayne County Contact Information" data-position="top left"><i class="fitted comment icon"></i></a>
+  		</div>
+  	</div>
+  	<div class="ui eight wide fluid right aligned column">
+  		<div class="ui basic segment social">
+  		    <a href="/county/transparency-in-government.aspx" class="footer-icon" data-tooltip="Transparency in Government" data-position="top right"><i class="fitted dashboard icon"></i></a>
+  		    <a href="/county/news-and-events.aspx" class="footer-icon" data-tooltip="Wayne County News &amp; Events" data-position="top right"><i class="fitted inverted newspaper icon"></i></a>
+  		    <a href="/county/aboutwc.aspx" class="footer-icon" data-tooltip="About Wayne County, Michigan" data-position="top right"><i class="fitted info icon"></i></a>
+  			<a href="/county/empres.aspx" class="footer-icon" data-tooltip="Employee Resources" data-position="top right"><i class="fitted privacy icon"></i></a>
+  		</div>
+  	</div>
+  	<div class="sixteen wide column">
+  		<div class="ui basic segment copyright">
+  			<p><i class="copyright icon"></i><script>document.write( new Date().getFullYear() );</script>2018 Wayne County, Michigan, All Rights Reserved. <span class="footer-policies"><a href="/county/privacy.aspx">Privacy Statement</a>, <a href="/county/privacy.aspx">Legal Notices and Terms of Use</a></span></p>
+  		</div>
+  	</div>
+  </div>
 </body>
 </html>

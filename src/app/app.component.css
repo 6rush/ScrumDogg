@@ -1,0 +1,68 @@
+ul {
+  list-style: none;
+}
+ul.normal {
+  list-style: initial;
+}
+.listHeader {
+  font-weight: bold;
+  margin-left: 0px;
+}
+.listHeader::before {
+  content: "[  ";
+}
+.listHeader::after {
+  content: "  ]";
+}
+.subHeader {
+  font-style: italic;
+  border-bottom: 1px solid #a1a1a1;
+  max-width: 200px;
+  margin-left: 0px;
+}
+
+li{
+  margin-left: 25px;
+}
+
+li.card {
+    display: inline-block;
+    float: left;
+    border: 1px solid #a1a1a1;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.cardHeader {
+  display: inline-block;
+  font-weight: bold;
+  border-bottom: 1px solid #e1e1e1;
+  width: 100%;
+}
+.cardHading {
+  display: inline-block;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.cardHading > span {
+  display: block;
+}
+.cardHading::after {
+  content: ':';
+}
+.member {
+  border-bottom: 3px solid #2185D0 !important;
+}
+
+.member > i {
+  color: #2185D0;
+}
+
+.member > div {
+  margin-bottom: 10px;
+}
